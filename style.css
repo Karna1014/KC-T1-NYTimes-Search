@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.title-area{
+    background: #4B0082;
+    color: white;
+    margin-left: 10px;
+    margin-right:10px;
+    height: 120px;
+    text-align: center;
+    border-radius: 5px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.content-body {
+    width: 980px;
+    margin: 0 auto;
+    border: 1px solid #dddd;
+    margin-bottom: 100px;
+}
+.main-content{
+    width: 950px;
+    margin: 0 auto;
+    border: 1px solid #dddd;
+    margin-top: 10px;
+    margin-bottom: 100px;
+   
+}
+.title-area .title-text{
+    margin-top: 30px;
+}
+.header{
+    width: 980px;
+    margin: 0 auto;
+}
+.first-input{
+    width: 950px;
+    
+}
+.first-label{
+    margin-top: 15px;
+}
+.second-label{
+    margin-top: 15px;
+}
+.third-label{
+    margin-top: 15px;
+}
+.fourth-label{
+    margin-top: 15px;
+}
+.third-input{
+    width: 950px;
+    
+}
+.fourth-input{
+    width: 950px;
+    
+}
+.second{
+    margin-top: 15px;
+}
+#search{
+    margin-left: 50px;
+}
+#delete{
+    margin-left: 50px;
+}
+#form{
+    margin-top: 15px;
+    }
+.result-input{
+        width: 950px;
+        
+    }

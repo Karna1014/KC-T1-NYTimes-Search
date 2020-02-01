@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Newyork Times Search</title>
+​
+    <!-------link to the bootstrap file-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+​
+    <!--------link to the uctsom css file-->
+    <link rel="stylesheet" href="style.css">
+​
+    <!--------link to fontawsome-->
+    <script src="https://kit.fontawesome.com/5c588c8e4c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+​
+        <section class="content-body">
+            <section class="title-area" id="title">
+            <div class="row">
+                <div class="col-md-12 site-title py-6">
+                    <h1 class="title-text"><i class="fas fa-newspaper"></i></i>New York Search Times</h1>
+                    
+                </div> 
+                
+            </div>
+            </section>
+            
+            <section class="main-content" id="mainContent">
+            <div class="row">
+                <div class="col-md-12 read-only py-6">
+                    <input class="form-control" type="text" placeholder="Search parameters" readonly>
+                
+                </div> 
+                
+            </div>
+        
+            <div class="row">
+                <div class="col-md-12 first py-6">
+                    <label for="mainContent" class="first-label">Search Items:</label>
+                    </div>
+                    <div class="col-md-12 firstInput">
+                    <input type="text" class="first-input"  id="firstInput">
+                    </div>
+                    
+            </div>
+        
+            
+            <div class="row">
+                <div class="col-md-12 second">
+                    <label class="my-1 mr-2" >Number of records to retrieve</label>
+                    <select class="custom-select " id="chooseOption">
+                    <option selected>Choose...</option>
+                    <option value="1" id="value1">5</option>
+                    <option value="2" id="value2">10</option>
+                    <option value="3" id="value3">15</option>
+                    </select>
+                </div>
+            </div>
+            
+            
+            <div class="row">
+                <div class="col-md-12 third py-6">
+                    <label for="mainContent" class="third-label">Start Year (Option)</label>
+                    </div>
+                    <div class="col-md-12 thirdInput">
+                    <input type="text" class="third-input"  id="thirdInput">
+                    </div>
+                    
+            </div>
+            <div class="row">
+                <div class="col-md-12 fourth py-6">
+                    <label for="mainContent" class="fourth-label">End Year (Option)</label>
+                    </div>
+                    <div class="col-md-12 fourthInput">
+                    <input type="text" class="fourth-input"  id="fourthInput">
+                    </div>
+                    
+            </div>
+    ​
+            <div class="row">
+                <div class="col-md-12 fifth py-6">
+                <div> <i class="fas fa-search" id="search"><button>Search</button></i>
+                    <i class="fas fa-trash-alt" id="delete"><button>Delete</button></i>
+                </div>
+            </div>
+            </div>
+    ​
+            <div class="row">
+                <div class="col-md-12 read-only py-6">
+                    <input class="form-control" type="text" placeholder="Top Articles" id="form" readonly>
+                
+                </div> 
+                
+            </div>
+    ​
+            <div class="row">
+                <div class="col-md-12 result py-6">
+                    
+                    </div>
+                    <div class="col-md-12 resultInput">
+                    <input type="text" class="result-input" id="resultInput">
+                    </div>
+                    
+            </div>
+          
+ 
+        </section>  
+      </section>
+      
+      
+    
+​
+      
+
+      
+      
+    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
